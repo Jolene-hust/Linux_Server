@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main(int argc, char* argv){
+int main(int argc, char* argv[]){
     if (argc <= 2){
         cout << "usage: " << argv[0] << "server ip_address and port_number" << endl;
         return 1;
